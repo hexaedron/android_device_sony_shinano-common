@@ -53,5 +53,6 @@ fi
 set -e
 
 export DEVICE_PLATFORM=msm8974-common
+export VENDOR=sony
 
 "./../../${VENDOR}/${DEVICE_PLATFORM}/extract-files.sh" "$@"
